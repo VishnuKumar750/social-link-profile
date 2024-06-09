@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 320px;
+    height: 35em;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content > img {
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 1em 0 .5em 0;
+}
+
+.content > h1 {
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    margin: 1em 0 0 0;
+}
+
+.content > span {
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    margin: .5em 0 1em 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+
+.content > p {
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    margin: 1em 0 1.5em 0;
+}
+
+.social-links {
+    width: 85%;    
+}
+
+.items {
+    text-align: center;
+    padding: 1em;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin: 0 0 1.1em 0;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
